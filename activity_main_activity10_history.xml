@@ -1,0 +1,30 @@
+<!-- activity_history.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/historyImageView1"
+        android:layout_width="400dp"
+        android:layout_height="86dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="110dp" />
+
+    <ImageView
+        android:id="@+id/historyImageView2"
+        android:layout_width="match_parent"
+        android:layout_height="90dp" />
+
+    <ImageView
+        android:id="@+id/historyImageView3"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="214dp"
+        android:layout_marginEnd="0dp" />
+
+
+</RelativeLayout>
